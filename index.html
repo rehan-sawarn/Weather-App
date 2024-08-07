@@ -3,61 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
     <div class="card">
         <div class="search">
-            <input type="text" placeholder="Enter city name" 
-            spellcheck="false">
-            <button><img src="images/search.png"> </button>
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="images/search.png" alt="Search"></button>
         </div>
         <div class="error">
             <p>City not found</p>
         </div>
         <div class="weather">
-            <img src="images/rain.png" class="weather-icon">
+            <img src="images/rain.png" class="weather-icon" alt="Weather">
             <h1 class="temp">22°C</h1>
-            <h3 class="feels-like">Feels like : 46°C</h3>
+            <h3 class="feels-like">Feels like: 46°C</h3>
             <h2 class="city">New York</h2>
             <h3 class="description">Rain</h3>
             <div class="details">
                 <div class="col">
-                    <img src="images/humidity.png">
+                    <img src="images/humidity.png" alt="Humidity">
                     <div>
                         <p class="humidity">50%</p>
                         <p>Humidity</p>
                     </div>
                 </div>
                 <div class="col">
-                    <img src="images/wind.png">
+                    <img src="images/wind.png" alt="Wind">
                     <div>
-                        <p class="wind">15 km/ph</p>
+                        <p class="wind">15 km/h</p>
                         <p>Wind Speed</p>
                     </div>
                 </div>
             </div>
         </div>
-        <h3 class="hourly-forecast">Hourly Forecast</h3>
-        <div class="forecast">
-            <div class="houry-item">
-                <div class="day">
-                    <p class="Mon" >Mon</p>
-                    <img src="images/clouds.png">
-                    <p>22°C</p>
-                </div>
-                <div class="day">
-                    <p>Tue</p>
-                    <img src="images/clouds.png">
-                    <p>22°C</p>
-                </div>
-            </div>
-        </div>
+        <h3 class="forecast-title">5-Day Forecast</h3>
+        <div class="forecast"></div>
     </div>
-
-<script src="script.js"></script>
-    
+    <script src="script.js"></script>
 </body>
 </html>
