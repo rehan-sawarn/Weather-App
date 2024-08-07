@@ -2,6 +2,8 @@
 
 This is a user-friendly weather application that provides current weather information and a 5-day forecast for any city around the world, displayed in a side-by-side layout.
 
+Access the live site: https://projectweatherapp1.netlify.app/
+
 ## Features
 
 - Real-time weather data including temperature, humidity, wind speed, and weather conditions
